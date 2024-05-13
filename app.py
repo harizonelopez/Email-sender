@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 import datetime
 
 def send_email(subject, body, to_email):
-    from_email = "your_email@gmail.com"
-    password = "your_password"
+    from_email = "harizonelopez23@gmail.com"
+    password = "207[jksy8392]#"
     
     msg = MIMEMultipart()
     msg['From'] = from_email
@@ -22,7 +22,6 @@ def send_email(subject, body, to_email):
     server.quit()
 
 def generate_report():
-    # This is where you generate your daily report
     # For the sake of example, let's just return a simple string
     return "Daily report for " + str(datetime.date.today())
 
